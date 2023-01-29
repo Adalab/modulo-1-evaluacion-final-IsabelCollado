@@ -15,10 +15,6 @@
         height: 240px;
         }
 
-    @media (min-width: 1280px) {
-        width:100vw;
-        height: 240px
-        }
     }
 
 .nav-flecha-footer {
@@ -29,11 +25,9 @@
     align-items: center;
 
     @media (min-width:768px) {
-        align-items:flex-end;
+        /*align-items:flex-end;*/
+        margin-top: -3rem;
     }
-    @media (min-width: 1280px) {
-        align-items:flex-end;
-        }
 
 }
 
@@ -44,6 +38,7 @@
     border-radius: 22.5px;
     transform: rotate(-0.23deg);
     background-color: #f2f2f2;
+
     @media (min-width:768px) {
 
         margin: 0 36.5rem 2rem;
@@ -60,6 +55,7 @@
 
 .nav-footer {
     display: flex;
+    flex-direction: column;
     justify-content: center;
     margin: 1rem;
     font-family: 'Roboto', sans-serif;
@@ -67,7 +63,6 @@
 
     @media (min-width:768px) {
         padding: 0 5rem 0 5rem;
-        text-align: start;
         order: 0;                
     }
 }
@@ -79,7 +74,8 @@
     align-items: center;
    
     @media (min-width:768px) {
-        margin: 0 -20px 0 0;
+        margin-left: 30rem;
+
     }
 }
 
@@ -137,16 +133,11 @@
 
     @media (min-width:768px){
         width: 100vw;
-        margin: 59px 200px 0 0;
+        margin: 59px 290px 0 0;
         position: absolute;
         font-size: 14px;
     }
-    @media (min-width:1280px) {
-            width: 100vw;
-            margin: 59px 21px 0 0;
-            position: absolute;
-            font-size: 14px;
-        }
+
 }
 .we {
         width: 50%;
@@ -158,14 +149,9 @@
 
         @media (min-width:768px) {
             width: 100vw;
-            margin: 86px 190px 0 0;
+            margin: 86px 280px 0 0;
             position: absolute;
             font-size: 14px;
         }
-        @media (min-width: 1280px) {
-            width: 100vw;
-            margin: 86px 10px 0 0;
-            position: absolute;
-            font-size: 14px;
-            }
+    
 }
