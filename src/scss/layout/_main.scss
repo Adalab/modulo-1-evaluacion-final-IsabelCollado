@@ -1,7 +1,9 @@
 .main {
     width: 100vw;
     background-color: var(--white);
-
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 .section-1 {
@@ -13,7 +15,7 @@
 .span {
     margin: 0 1rem 3.3rem 0;
     font-family: 'Roboto', sans-serif;
-    font-size: 14px;
+    font-size: 1.4rem;
     font-weight: normal;
     font-stretch: normal;
     font-style: normal;
@@ -66,20 +68,18 @@
 }
 
 .section-2 {
-    width: 100%;
-    height: 62.4rem;
+    /*width: 100vw;
+    height: 62.4rem;*/
     background-color:var(--white-two);
-    margin: 3.9rem 0 0;
-    padding: 2.9rem 1.5rem 3.9rem;
-    display: grid;
-    grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
-    grid-template-columns: 1fr;
+    text-align: center;
+    border: solid 3rem #f2f2f2;
+    padding-bottom: 2rem;
 }
 
 .new-year {
-    width: 60% ;
-    height: 6.0rem;
-    margin: 0 0 41px;
+    /*width: 50%;
+    height: 6.0rem;*/
+    margin: 0 6rem 3rem 6rem;
     font-family: RobotoSlab;
     font-size: 20px;
     font-weight: bold;
@@ -87,6 +87,105 @@
     font-style: normal;
     line-height: 1.5;
     letter-spacing: normal;
+    color: var(--black);
+    text-align:  center;
+}
+
+.article1 {
+    width: 100vw;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+}
+
+.article-2 {
+    width: 100%;    
+}
+
+.trainer {
+    font-family: RobotoSlab;
+    font-size: 18px;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.67;
+    letter-spacing: normal;
     text-align: center;
     color: var(--black);
+    grid-column: 1/2;
+    grid-row: 1/2;
+    
+}
+
+.p-main {
+    margin-bottom: 1rem;
+    font-family: RobotoSlab;
+    font-size: 1.8rem;
+    margin: 0 4rem 2.5rem 4rem;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.67;
+    letter-spacing: normal;
+    text-align: center;
+    color: var(--black);
+    grid-column: 1/2;
+    grid-row: 1/2;
+}
+
+.nivel {
+    font-family: RobotoSlab;
+    font-size: 18px;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.67;
+    letter-spacing: normal;
+    text-align: center;
+    color: var(--black);
+    grid-column: 1/2;
+    grid-row: 1/2;
+} 
+
+.p-main2 {
+    font-family: RobotoSlab;
+    font-size: 1.8rem;
+    margin: 0 8rem 2.5rem 8rem;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.67;
+    letter-spacing: normal;
+    text-align: center;
+    color: var(--black);
+    grid-column: 1/2;
+    grid-row: 1/2;
+}
+
+.exclusiveness {
+    font-family: RobotoSlab;
+    font-size: 18px;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.67;
+    letter-spacing: normal;
+    text-align: center;
+    color: var(--black);
+    grid-column: 1/2;
+    grid-row: 1/2;
+}
+.p-main3 {
+    font-family: RobotoSlab;
+    font-size: 1.8rem;
+    margin: 0 8rem 2.5rem 8rem;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.67;
+    letter-spacing: normal;
+    text-align: center;
+    color: var(--black);
+    grid-column: 1/2;
+    grid-row: 1/2;
 }
