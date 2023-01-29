@@ -1,15 +1,22 @@
 .main {
     width: 100vw;
-    background-color: var(--white);
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+
 }
 
 .section-1 {
 
-    width: 100%;
+    width: 86%;
     margin: 0 0 3.5rem 3rem;
+
+
+@media (min-width:768px) {
+    font-size: 1.2rem;
+    margin-bottom: 1rem;
+    }
+
+@media (min-width:1280px) {
+    margin-left: 12rem;
+    }
 }
 
 .span {
@@ -51,6 +58,7 @@
     color: var(--greyish-brown);
 }
 
+
 .main-section-btn {
     width: 14rem;
     height: 4.5rem;
@@ -68,18 +76,17 @@
 }
 
 .section-2 {
-    /*width: 100vw;
-    height: 62.4rem;*/
+    width: 100%;
     background-color:var(--white-two);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
     text-align: center;
-    border: solid 3rem #f2f2f2;
-    padding-bottom: 2rem;
+    
 }
 
 .new-year {
-    /*width: 50%;
-    height: 6.0rem;*/
-    margin: 0 6rem 3rem 6rem;
+    margin: 3rem 6rem 3rem 6rem;
     font-family: RobotoSlab;
     font-size: 20px;
     font-weight: bold;
@@ -188,4 +195,26 @@
     color: var(--black);
     grid-column: 1/2;
     grid-row: 1/2;
+}
+
+.div-go {
+    width: 184px;
+    margin:0 7rem 5rem;
+    border-radius: 22.5px;
+    transform: rotate(-0.23deg);
+    background-color: var(--bright-orange);
+    text-align: center;
+
+}
+.main-btn-2 {
+    margin: 10px 23.5px 0 25.5px;
+    font-family: Roboto;
+    font-size: 20px;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 2.25;
+    letter-spacing: normal;
+    text-align: center;
+    color: var(--white);
+    text-decoration: none;
 }
