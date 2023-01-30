@@ -91,7 +91,11 @@
     
 }
 
+/* he intentado integrar una animación, pero no me coge la transtion Y*/
+
 .main-section-btn:hover {
+    /*-webkit-transition: 1s linear;      
+    transition: 1s linear;*/
     background-color: white;
     border: 2px solid green;
     color: green;
