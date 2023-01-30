@@ -13,10 +13,6 @@
     font-size: 1.2rem;
     margin-bottom: 1rem;
     }
-
-@media (min-width:1280px) {
-    margin-left: 12rem;
-    }
 }
 
 .span {
@@ -71,8 +67,8 @@
     }
     @media (min-width:1280px) {
         margin-left: 30rem;
-        width: 869px;
-        height: 87px;
+        width: 80rem;
+        height: 8.7rem;
         font-size: 2rem;
     }
 }
@@ -88,6 +84,10 @@
     text-align: center;
     font-size: 2rem;
     border: solid 2px var(--bright-orange);
+
+    @media (min-width:1280px){
+        margin-left: 30rem;
+    }
     
 }
 
@@ -119,6 +119,14 @@
         padding-bottom: 4rem;
         font-weight: bold;
     }
+
+    @media (min-width:1280px) {
+        width: 730px;
+        height: 45px;
+        font-size: 3.2rem;
+        font-weight: bold;
+        margin: 0 50rem 8rem 28rem;
+    }
 }
 
 .section-2 {
@@ -130,7 +138,12 @@
     @media (min-width:768px){
         width: 100%;
         height: 410px;
+    }
 
+    @media (min-width:1280px) {
+
+        width: 1280px;
+        height: 427px;
     }
 }
 
@@ -139,13 +152,23 @@
     display: grid;
     grid-template-columns: 1fr;
     grid-template-rows: 1fr 1fr 1fr;
-    gap: 40px;
+    gap: 3rem;
 
     @media (min-width:768px) {
         width: 100%;
         display: grid;
         grid-template-columns: 1fr 1fr 1fr;
         grid-template-rows: 1fr;
+        gap: 1%;
+    }
+    @media (min-width:1280px) {
+        width: 9rem;
+        height: 12rem;
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-template-rows: 1fr;
+        gap: 50%;
+        margin-left: 25rem;
     }
 }
 
@@ -172,8 +195,19 @@
         height: 30px;
         margin: 1px 0 1px 0;
     }
-    
+    @media (min-width:1280px) {
+        font-family: RobotoSlab;
+        font-size: 2.4rem;
+        font-weight: bold;
+        font-stretch: normal;
+        font-style: normal;
+        line-height: 1.25;
+        letter-spacing: normal;
+        text-align: center;
+        color: var(--black);
+        }
 }
+
 
 .p-main {
     margin-bottom: 1rem;
@@ -195,8 +229,19 @@
         height: 68px;
         margin: 1px 0 1px 0;
     }
-    
+    @media (min-width:1280px) {
+        font-family: RobotoSlab;
+        font-size: 2rem;
+        font-weight: normal;
+        font-stretch: normal;
+        font-style: normal;
+        line-height: 1.5;
+        letter-spacing: normal;
+        text-align: center;
+        color: var(--black);
+        }
 }
+
 
 .nivel {
     font-family: RobotoSlab;
@@ -216,7 +261,17 @@
         height: 30px;
         margin: 1px 0 1px 0;
     }
-    
+    @media (min-width:1280px) {
+        font-family: RobotoSlab;
+        font-size: 2.4rem;
+        font-weight: bold;
+        font-stretch: normal;
+        font-style: normal;
+        line-height: 1.25;
+        letter-spacing: normal;
+        text-align: center;
+        color: var(--black);
+        }
 } 
 
 .p-main2 {
@@ -238,6 +293,17 @@
         height: 30px;
         margin: 1px 0 1px 0;
     }
+    @media (min-width:1280px) {
+        font-family: RobotoSlab;
+        font-size: 2rem;
+        font-weight: normal;
+        font-stretch: normal;
+        font-style: normal;
+        line-height: 1.5;
+        letter-spacing: normal;
+        text-align: center;
+        color: var(--black);
+        }
 
 }
 
@@ -259,6 +325,17 @@
         height: 30px;
         margin: 1px 0 1px 0;
     }
+    @media (min-width:1280px) {
+        font-family: RobotoSlab;
+        font-size: 2.4rem;
+        font-weight: bold;
+        font-stretch: normal;
+        font-style: normal;
+        line-height: 1.25;
+        letter-spacing: normal;
+        text-align: center;
+        color: var(--black);
+        }
 }
 .p-main3 {
     font-family: RobotoSlab;
@@ -279,6 +356,18 @@
         height: 30px;
         margin: 1px 0 1px 0;
     }
+
+    @media (min-width:1280px) {
+        font-family: RobotoSlab;
+        font-size: 2rem;
+        font-weight: normal;
+        font-stretch: normal;
+        font-style: normal;
+        line-height: 1.5;
+        letter-spacing: normal;
+        text-align: center;
+        color: var(--black);
+        }
 }
 .div-go{
     position: absolute;

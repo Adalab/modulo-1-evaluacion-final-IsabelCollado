@@ -51,6 +51,11 @@
         display: flex;
         flex-direction: row-reverse;
     }
+    @media (min-width:1280px) {
+        display: flex;
+        flex-direction: row-reverse;
+        margin: 0 8rem 0 0;
+    }
 }
 
 .nav-footer {
@@ -135,7 +140,13 @@
         width: 100vw;
         margin: 59px 290px 0 0;
         position: absolute;
-        font-size: 14px;
+        font-size: 16px;
+    }
+    @media (min-width:1280px){
+        width: 100vw;
+        margin: 70px 380px 0 0;
+        position: absolute;
+        font-size: 16px;
     }
 
 }
@@ -151,7 +162,14 @@
             width: 100vw;
             margin: 86px 280px 0 0;
             position: absolute;
-            font-size: 14px;
+            font-size: 16px;
+        }
+        @media (min-width:1280px) {
+            width: 100vw;
+            margin: 98px 360px 0 0;
+            position: absolute;
+            font-size: 16px;
+
         }
     
 }

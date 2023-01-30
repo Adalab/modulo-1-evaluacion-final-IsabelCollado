@@ -48,7 +48,7 @@
     object-fit: contain;
     background-repeat: no-repeat;
     position: relative;
-    top: -20rem;
+    top: -16rem;
 
     @media (min-width:768px) {
         background-size: cover;
@@ -56,8 +56,9 @@
       }
 
       @media (min-width:1280px) {
-        background-size: 160%;
-        background-position: 20% 15%;
+        width: 100vw;
+        background-size: 150%;
+        background-position: 18% 15%;
           
       }
 }
@@ -183,6 +184,6 @@
         }
     @media (min-width:1280px) {
         margin-top: -25rem;
-        margin-left: 57rem;
+        margin-left: 21rem;
         }
 }
