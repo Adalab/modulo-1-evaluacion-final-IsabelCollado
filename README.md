@@ -5,6 +5,9 @@ Al principio no podía incluir el cover, me dio muchos problemas, al final era u
 ## Esqueleto y parte de maquetación del proyecto:
 
 Lo he dividido en 3 partes:
+
+#
+
 .header- Que contiene un menú fijo y un hero con un cover que se amplía en los tres formatos mobile, tablet y desktop.
 
 .Main- Se divide en dos partes, la primera parte se trata de un span de color naranja, un título con la letra un poco mas grande, un artículo y un buttom con enlace.
