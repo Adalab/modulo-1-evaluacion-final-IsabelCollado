@@ -5,13 +5,14 @@
 
 .section-1 {
 
-    width: 86%;
-    margin: 0 0 3.5rem 3rem;
+    width: 100%;
+    margin: 3rem 0 3.5rem 3rem;
 
 
 @media (min-width:768px) {
     font-size: 1.2rem;
     margin-bottom: 1rem;
+    padding: 5rem 9rem 5rem 6rem;
     }
 }
 
@@ -134,8 +135,8 @@
 }
 
 .section-2 {
-    margin: 39px 0 0;
-    width: 100vw;
+    /*margin: 39px 0 0;*/
+    width: 100%;
     height: 100vh;
     background-color: var(--white-two);
 
@@ -146,7 +147,7 @@
 
     @media (min-width:1280px) {
 
-        width: 1280px;
+        width: 100%;
         height: 427px;
     }
 }
@@ -160,19 +161,18 @@
 
     @media (min-width:768px) {
         width: 100%;
+        padding: 2rem 2rem 2rem 2rem;
         display: grid;
         grid-template-columns: 1fr 1fr 1fr;
         grid-template-rows: 1fr;
         gap: 1%;
     }
     @media (min-width:1280px) {
-        width: 9rem;
-        height: 12rem;
+        width: 100%;
+        padding: 2rem 2rem 2rem 2rem;
         display: grid;
         grid-template-columns: 1fr 1fr 1fr;
         grid-template-rows: 1fr;
-        gap: 50%;
-        margin-left: 25rem;
     }
 }
 
@@ -200,6 +200,7 @@
         margin: 1px 0 1px 0;
     }
     @media (min-width:1280px) {
+        width: 100%;
         font-family: RobotoSlab;
         font-size: 2.4rem;
         font-weight: bold;
@@ -234,6 +235,7 @@
         margin: 1px 0 1px 0;
     }
     @media (min-width:1280px) {
+        width: 100%;
         font-family: RobotoSlab;
         font-size: 2rem;
         font-weight: normal;
@@ -266,6 +268,7 @@
         margin: 1px 0 1px 0;
     }
     @media (min-width:1280px) {
+        width: 100%;
         font-family: RobotoSlab;
         font-size: 2.4rem;
         font-weight: bold;
@@ -298,6 +301,7 @@
         margin: 1px 0 1px 0;
     }
     @media (min-width:1280px) {
+        width: 100%;
         font-family: RobotoSlab;
         font-size: 2rem;
         font-weight: normal;
@@ -330,6 +334,7 @@
         margin: 1px 0 1px 0;
     }
     @media (min-width:1280px) {
+        width: 100%;
         font-family: RobotoSlab;
         font-size: 2.4rem;
         font-weight: bold;
@@ -362,6 +367,7 @@
     }
 
     @media (min-width:1280px) {
+        width: 100%;
         font-family: RobotoSlab;
         font-size: 2rem;
         font-weight: normal;
@@ -398,7 +404,6 @@
     font-style: normal;
     line-height: 45px;
     letter-spacing: normal;
-    text-align: center;
 
 }
 

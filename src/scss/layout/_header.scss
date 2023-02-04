@@ -1,43 +1,45 @@
 .header {
     width: 100vw;
-    height: 85vh;
-    @media(min-width:780px) {
-        
-    }
-
-
-.header-menu {
-    width: 37px;
-    height: 34px;
-    background-color:var(#f26002);
-    position: sticky;
-    margin: 0;
-    top: 0;
-    z-index: 1;
-}
-
-.header-link {
-    /*background-color:var(--bright-orange);*/
-    padding: 0.7rem;
-
-    @media (min-width:768px) {
-        padding: 0.9rem;
-          }
-    @media (min-width:1280px) {
-            padding: 1rem;
-          }
-}
-
-
-.image-menu {
-    padding: 10px 2px;
-    position: sticky;
-    margin: 0;
-    top: 0;
-    z-index: 1;
     
-}
+    .header-menu {
+        width: 37px;
+        height: 34px;
+        background-color: #f26002;
+        position: sticky;
+        margin: 0;
+        z-index: 1;
 
+     }   
+            @media (min-width:768px) {
+                padding: 0.9rem;
+                }
+            @media (min-width:1280px) {
+                    padding: 1rem;
+                }
+    }       
+
+        .header-link {
+            padding: 0.7rem;
+        }
+        .image-menu {
+            padding: 10px 2px;
+            position: sticky;
+            margin: 0;
+            z-index: 1;
+        }
+
+            /*@media (min-width:768px) {
+                padding: 0.9rem;
+            }
+
+            @media (min-width:1280px) {
+
+                margin: 10px 10px 10px;
+               
+            }*/
+        
+
+    
 .hero {
     width: 100%;
     height: 443px;
@@ -48,28 +50,29 @@
         width: 100vw;
     }
 
-}
 
-.image-hero {
-    width: 100%;
-    height: 100vh;
-    background-image: url(../images/cover.jpeg);
-    background-size: 698px 500px;
-    background-position: 50%;
-    object-fit: cover;
-    background-repeat: no-repeat;
-    position: relative;
-    top: -16rem;
 
-    @media (min-width:768px) {
-        background-size: cover;
-        background-position: 20%;
-      }
+    .image-hero {
+        width: 100%;
+        height: 100vh;
+        background-image: url(../images/cover.jpeg);
+        background-size: 698px 500px;
+        background-position: 50%;
+        object-fit: cover;
+        background-repeat: no-repeat;
+        position: relative;
+        top: -16rem;
 
-      @media (min-width:1280px) {
-        width: 100vw;
-          
-      }
+        @media (min-width:768px) {
+            background-size: cover;
+            background-position: 20%;
+        }
+
+        @media (min-width:1280px) {
+            width: 100vw;
+            
+        }
+    
 }
 
 .content-h1{
@@ -82,7 +85,7 @@
     top: -50rem;
 
     @media (min-width:768px) {
-        top: -54rem;
+        top: -45rem;
   
       }
 
@@ -136,8 +139,8 @@
     top: -50rem;
 
     @media (min-width:768px) {
-        top: -56rem;
-  
+        top: -45rem;
+
       }
 
       @media (min-width:1280px) {
@@ -180,15 +183,16 @@
         .selected1 {
             width: 3.6rem;
             height: 3.6rem;
-            margin-top: -5rem;
+            margin-top: -10rem;
             border-radius: 22.5px;
             transform: rotate(-0.23deg);
             background-color: #f2f2f2;
 
-            @media (min-width:768px) {
+            @media (min-width:1280px) {
 
-                margin: 0 36.5rem 2rem;
+                margin-top: 2rem;
             }
+
             .indicator-arrow{
                 object-fit: contain;
                 margin-top: 1.2rem;
