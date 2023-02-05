@@ -9,14 +9,9 @@
         margin: 0;
         z-index: 1;
 
-     }   
-            @media (min-width:768px) {
-                padding: 0.9rem;
-                }
-            @media (min-width:1280px) {
-                    padding: 1rem;
-                }
-    }       
+    }   
+           
+}       
 
         .header-link {
             padding: 0.7rem;
@@ -171,14 +166,22 @@
         height: 28.6px;
       }
 
+    }
 }
-
     .arrow-section{
         width: 100vw;
-        /*padding: 11px 12.4px 10px 12px;*/
+        padding: 11px 12.4px 10px 12px;
         display: flex;
         flex-direction: column;
         align-items: center;
+
+        @media (min-width:768px) {
+            margin-top: 4rem;
+        }
+
+        @media (min-width:1280px) {
+            margin-top: 0.9rem;
+        }
     
         .selected1 {
             width: 3.6rem;
@@ -201,4 +204,3 @@
             }
         }
     }
-}
