@@ -85,6 +85,7 @@
     text-align: center;
     font-size: 2rem;
     border: solid 2px var(--bright-orange);
+    transition: 1s linear;
 
     @media (min-width:1280px){
         margin-left: 30rem;
@@ -92,11 +93,9 @@
     
 }
 
-/* he intentado integrar una animación, pero no me coge la transtion Y*/
+/* he intentado integrar una animación, mirar video para mover el corazon del footer*/
 
 .main-section-btn:hover {
-    /*-webkit-transition: 1s linear;      
-    transition: 1s linear;*/
     background-color: white;
     border: 2px solid green;
     color: green;
