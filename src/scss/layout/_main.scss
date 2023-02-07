@@ -5,11 +5,12 @@
 
 .section-1 {
 
-    width: 100%;
-    margin: 3rem 0 3.5rem 3rem;
+    width: 100vw;
+    padding: 97px 12px 0 21px;
 
 
 @media (min-width:768px) {
+    width: 768px;
     font-size: 1.2rem;
     margin-bottom: 1rem;
     padding: 5rem 9rem 5rem 6rem;
@@ -26,7 +27,7 @@
     line-height: 2.14;
     letter-spacing: normal;
     text-align: left;
-    color: var(--bright-orange);
+    color: $bright-orange;
 
     @media (min-width:1280px) {
         margin-left: 30rem;
@@ -41,7 +42,8 @@
     line-height: 1.25;
     letter-spacing: normal;
     text-align: left;
-    color: var(--black);
+    color: $black;
+
     @media (min-width:1280px) {
         margin-left: 30rem;
         font-size: 3.2rem;
@@ -49,7 +51,7 @@
 }
 
 .article-1 {
-    width: 28.7rem;
+    width: 100vw;
     height: 17.1rem;
     margin: 1.1rem 0 3.5rem 0.3rem;
     font-family: RobotoSlab;
@@ -60,13 +62,16 @@
     line-height: 1.50;
     letter-spacing: normal;
     text-align: left;
-    color: var(--greyish-brown);
+    color: $greyish-brown;
 
     @media (min-width:780px) {
-        width: 100%;
+        width: 690px;
+        height: 90px;
         font-size: 2rem;
     }
     @media (min-width:1280px) {
+        width: 690px;
+        height: 90px;
         margin-left: 30rem;
         width: 80rem;
         height: 8.7rem;
@@ -79,12 +84,12 @@
     width: 15rem;
     height: 4rem;
     border-radius: 22.5px;
-    background-color: var(--white);
-    color: var(--bright-orange);
+    background-color: $white;
+    color: $bright-orange;
     text-decoration: none;
     text-align: center;
     font-size: 2rem;
-    border: solid 2px var(--bright-orange);
+    border: solid 2px $bright-orange;
     transition: 1s linear;
 
     @media (min-width:1280px){
@@ -96,7 +101,7 @@
 /* he intentado integrar una animación, mirar video para mover el corazon del footer*/
 
 .main-section-btn:hover {
-    background-color: white;
+    background-color: $white;
     border: 2px solid green;
     color: green;
   }
@@ -111,7 +116,7 @@
     font-style: normal;
     line-height: 1.5;
     letter-spacing: normal;
-    color: var(--black);
+    color: $black;
     text-align:  center;
 
     @media (min-width:768px) {
@@ -137,7 +142,7 @@
     /*margin: 39px 0 0;*/
     width: 100%;
     height: 100vh;
-    background-color: var(--white-two);
+    background-color: $white-Two;
 
     @media (min-width:768px){
         width: 100%;
@@ -189,7 +194,7 @@
     line-height: 1.67;
     letter-spacing: normal;
     text-align: center;
-    color: var(--black);
+    color: $black;
     grid-column: 1/2;
     grid-row: 1/2;
 
@@ -208,7 +213,7 @@
         line-height: 1.25;
         letter-spacing: normal;
         text-align: center;
-        color: var(--black);
+        color: $black;
         }
 }
 
@@ -224,7 +229,7 @@
     line-height: 1.67;
     letter-spacing: normal;
     text-align: center;
-    color: var(--black);
+    color: $black;
     grid-column: 1/2;
     grid-row: 1/2;
 
@@ -243,7 +248,7 @@
         line-height: 1.5;
         letter-spacing: normal;
         text-align: center;
-        color: var(--black);
+        color: $black;
         }
 }
 
@@ -257,7 +262,7 @@
     line-height: 1.67;
     letter-spacing: normal;
     text-align: center;
-    color: var(--black);
+    color: $black;
     grid-column: 1/2;
     grid-row: 1/2;
 
@@ -276,7 +281,7 @@
         line-height: 1.25;
         letter-spacing: normal;
         text-align: center;
-        color: var(--black);
+        color: $black;
         }
 } 
 
@@ -290,7 +295,7 @@
     line-height: 1.67;
     letter-spacing: normal;
     text-align: center;
-    color: var(--black);
+    color: $black;
     grid-column: 1/2;
     grid-row: 1/2;
 
@@ -309,7 +314,7 @@
         line-height: 1.5;
         letter-spacing: normal;
         text-align: center;
-        color: var(--black);
+        color: $black;
         }
 
 }
@@ -323,7 +328,7 @@
     line-height: 1.67;
     letter-spacing: normal;
     text-align: center;
-    color: var(--black);
+    color: $black;
     grid-column: 1/2;
     grid-row: 1/2;
 
@@ -342,7 +347,7 @@
         line-height: 1.25;
         letter-spacing: normal;
         text-align: center;
-        color: var(--black);
+        color: $black;
         }
 }
 .p-main3 {
@@ -355,7 +360,7 @@
     line-height: 1.67;
     letter-spacing: normal;
     text-align: center;
-    color: var(--black);
+    color: $black;
     grid-column: 1/2;
     grid-row: 1/2;
 
@@ -375,7 +380,7 @@
         line-height: 1.5;
         letter-spacing: normal;
         text-align: center;
-        color: var(--black);
+        color: $black;
         }
 }
 .div-go{
@@ -393,9 +398,9 @@
     justify-content: center;
     text-align: center;
     border-radius: 22.5px;
-    background-color: var(--bright-orange);
+    background-color: $bright-orange;
     text-decoration: none;
-    color: var(--white);
+    color: $white;
     font-family: Roboto;
     font-size: 20px;
     font-weight: 500;
@@ -407,7 +412,7 @@
 }
 
 .main-btn-2:hover {
-    background-color: white;
+    background-color: $white;
     border: 2px solid blue;
     color: blue;
   }
